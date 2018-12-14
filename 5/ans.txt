@@ -1,0 +1,17 @@
+well, we don't need to program to do this.
+we want to find the smallest number that is a multiple of numbers [1..20].
+
+We can get the prime factorization of each of these numbers,
+and get the max powers for each prime. 
+then just multiply all the prime factors to their heightest power.
+
+we can start with 2.
+2 divides 16 4 times, so we ahve 2^4.
+3 divides 9 twice, so 3^2
+5 divides 5 once, so 5^1
+7 ... etc.
+we end up with
+2^4*3^2*5*7*11*13*17*19
+which is 
+232792560
+
