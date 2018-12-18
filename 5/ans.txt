@@ -15,3 +15,8 @@ we end up with
 which is 
 232792560
 
+
+Now, lets write code to do this for us.
+We need to get the prime factorization of every number from 2 to n,
+and get the max powers of that list, then multiply them together.
+
