@@ -1,0 +1,9 @@
+[package]
+name = "fibdig"
+version = "0.1.0"
+authors = ["Nick Fagan <nick@ifagan.com>"]
+edition = "2018"
+
+[dependencies]
+num-bigint = "*"
+num-traits  = "*"
